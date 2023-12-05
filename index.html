@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Strona o Barbórce i Górnictwie</title>
+  <style>
+    body{
+      background-image: url('3.png');
+      background-size: 75%;
+      background-attachment: fixed;
+      background-position: center;
+      color: #000000;
+      
+  
+    }
+    .glow {
+      text-shadow: 0 0 5px #ff0000;
+    }
+    .rotate {
+      margin-left: 1000px;
+      animation: spin 5s linear infinite;
+    }
+    @keyframes spin {
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 style="text-align: center; color:rgb(194, 8, 8)">Barbórka i Górnictwo</h1>
+    <p>Barbórka – tradycyjne święto górnicze, obchodzone w Polsce 4 grudnia, w dniu św. Barbary z Nikomedii, patronki dobrej śmierci i trudnej pracy. Poza górnikami Barbórkę obchodzą także geolodzy i inne osoby wykonujące zawody związane z poszukiwaniem paliw kopalnych.</p>
+    <nav>
+      <ul>
+        <li><a href="https://pl.wikipedia.org/wiki/Barb%C3%B3rka">wiecej informacji o Barbórce</a></li>
+      </ul>
+    </nav>
+  </header>
+  <audio controls>
+    <source src="2.mp3" type="audio/mpeg">
+  </audio>
+  <img src="1.png" alt="górnicy" class="rotate">
+</body>
+</html>
